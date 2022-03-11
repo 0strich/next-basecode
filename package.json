@@ -1,17 +1,24 @@
 {
   "name": "next-basecode",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "major": "npm version major --no-git-tag-version",
+    "minor": "npm version minor --no-git-tag-version",
+    "patch": "npm version patch --no-git-tag-version",
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.0",
     "next": "12.1.0",
+    "prop-types": "^15.8.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.6",
+    "reactstrap": "^9.0.1"
   },
   "devDependencies": {
     "eslint": "8.10.0",
